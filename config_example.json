@@ -1,0 +1,17 @@
+[
+    {
+    
+    "broker_address": "xx.xxx.xx.xx",
+    "topic": "data/live/status",
+    "topic_2": "data/live/status/error",
+    "streams": [
+        {
+            "url": "http://xx.xx.xx.xx/streamer/api/v3/streams?limit=200",
+            "access_token": "xxxxx",
+            "server_number" :"1",
+            "live_cu":"live"
+        }
+ 
+        ]
+    }
+]

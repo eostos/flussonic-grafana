@@ -1,0 +1,11 @@
+[Unit]
+Description=Cu servers status
+After=multi-user.target
+[Service]
+Type=simple
+RestartSec=10s
+Restart=always
+WorkingDirectory=/home/ubuntu/flussonic-grafana/flussonic-grafana-int/
+ExecStart=/usr/bin/python3 server.py cu.json
+[Install]
+WantedBy=multi-user.target
